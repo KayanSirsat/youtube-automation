@@ -1,0 +1,31 @@
+# Secrets: never commit
+client_secret*.json
+token*.json
+*.pickle
+.env*
+
+# Environments and caches (rebuild from requirements.txt)
+.venv/
+.venv-tts/
+__pycache__/
+node_modules/
+
+# Media: voice recordings and clones of your voice, stock files whose licenses don't allow re-sharing
+*.wav
+*.mp3
+*.m4a
+*.mp4
+assets/
+
+# Scraped and generated data: competitor transcripts, comments and videos are other people's content
+exports/
+work/
+transcripts_in/
+*.db
+*.xlsx
+
+# Local clutter
+*.bak
+.~lock.*
+.claude/settings.local.json
+.claude/skills/

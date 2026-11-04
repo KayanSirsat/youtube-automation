@@ -1,0 +1,55 @@
+{
+  "channels": [
+    "@wendoverproductions",
+    "@economicsexplained",
+    "@howmoneyworks",
+    "@magnatesmedia",
+    "@alux",
+    "@jackpockets",
+    "@fern-tv",
+    "@Crayon_Capital"
+  ],
+  "quota_budget_per_run": 9000,
+  "db_path": "yt_intel.db",
+  "output_dir": "exports",
+  "max_videos_per_channel": 200,
+  "shorts_max_seconds": 180,
+  "outlier_multiple": 2.0,
+  "top_videos_sheet_per_channel": 15,
+  "comments": {
+    "top_videos_per_channel": 5,
+    "max_comments_per_video": 200,
+    "top_bigrams": 30
+  },
+  "transcripts": {
+    "enabled": false,
+    "top_videos_per_channel": 5,
+    "languages": ["en", "en-US", "en-GB"],
+    "hook_seconds": 15,
+    "delay_seconds": 2
+  },
+  "saturation_scan": {
+    "published_within_days": 365,
+    "max_results_per_query": 50,
+    "relevance_language": "en",
+    "intent_regex": "(econom|cost|own|price|money|worth|afford|expensive|rich|billion|million)",
+    "query_templates": [
+      "economics of owning a {asset}",
+      "real cost of owning a {asset}"
+    ],
+    "assets": [
+      {"name": "Private jet", "query": "private jet", "terms": ["jet"]},
+      {"name": "Yacht/Superyacht", "query": "superyacht", "terms": ["yacht"]},
+      {"name": "Cruise ship", "query": "cruise ship", "terms": ["cruise"]},
+      {"name": "Private island", "query": "private island", "terms": ["island"]},
+      {"name": "Castle/medieval", "query": "castle", "terms": ["castle", "medieval"]},
+      {"name": "Airport", "query": "airport", "terms": ["airport"]},
+      {"name": "Pro sports franchise", "query": "sports team", "terms": ["team", "club", "franchise"]},
+      {"name": "Supercar/hypercar", "query": "supercar", "terms": ["supercar", "hypercar", "ferrari", "lamborghini", "bugatti"]},
+      {"name": "Luxury hotel/resort", "query": "luxury hotel", "terms": ["hotel", "resort"]},
+      {"name": "Mega-mansion/real estate", "query": "mansion", "terms": ["mansion", "house", "estate"]},
+      {"name": "Space tourism", "query": "spaceship", "terms": ["space", "rocket"]},
+      {"name": "Vineyard/wine estate", "query": "vineyard", "terms": ["vineyard", "winery", "wine"]}
+    ]
+  }
+}

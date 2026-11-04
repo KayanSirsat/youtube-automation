@@ -1,0 +1,13 @@
+requests>=2.31
+pandas>=2.0
+openpyxl>=3.1
+# optional: comment sentiment scores
+vaderSentiment>=3.3
+# optional: transcript hook metrics (unofficial library, off by default in config.json)
+youtube-transcript-api>=1.0
+# production: narration (Kokoro) and caption timing (faster-whisper)
+kokoro>=0.9.4
+soundfile
+faster-whisper>=1.2.1
+# faster-whisper 1.2.1 passes av.open(metadata_errors=...), which av 19 removed
+av<19

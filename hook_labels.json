@@ -1,0 +1,13 @@
+{
+  "_about": "Hand-checked transcript values; video_breakdown.py uses these over its automatic guesses. hook_len = second the main body begins. hook_type uses: Curiosity Gap, Negative Framing, Anecdotal/Story, Visual Spectacle, In Medias Res, Question-Based. sponsor = second the first ad read starts (null = none). Leave a key out to keep the automatic value.",
+  "ccjn4tXifFA": {"hook_len": 34, "hook_type": "Curiosity Gap", "sponsor": 236, "note": "sponsor is Alux's own app plug"},
+  "9_4xL_JtKgo": {"hook_len": 40, "hook_type": "Curiosity Gap", "sponsor": 465, "note": "sponsor is Alux's own app plug"},
+  "HawmGu7oNrc": {"hook_len": 19, "hook_type": "Negative Framing", "sponsor": null},
+  "F_VUBpALcVE": {"hook_len": 104, "hook_type": "Curiosity Gap", "sponsor": 104, "note": "AnyDesk read straight after the hook"},
+  "1zjcZ661ups": {"hook_len": 85, "hook_type": "Question-Based", "sponsor": null, "note": "end CTA is the creator's own newsletter"},
+  "51fWzJ-A5w4": {"hook_len": 94, "hook_type": "Curiosity Gap", "sponsor": 4388, "note": "spoken hook ends 1:03, title sequence to 1:34"},
+  "b4wRdoWpw0w": {"hook_len": 45, "hook_type": "In Medias Res", "sponsor": 1035, "note": "Nebula / CuriosityStream bundle"},
+  "jYPrH4xANpU": {"hook_len": 71, "hook_type": "Question-Based", "sponsor": 0, "note": "CuriosityStream pre-roll 0:00-0:09, full read at 9:01"},
+  "aVA7aXOH1pk": {"hook_len": 50, "hook_type": "In Medias Res", "sponsor": null},
+  "jXwOcpkMQAA": {"hook_len": 18, "hook_type": "Curiosity Gap", "sponsor": null}
+}
